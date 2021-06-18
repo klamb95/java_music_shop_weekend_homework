@@ -30,7 +30,7 @@ public class NonInstrument implements ISellNonInstruments {
         return priceSold;
     }
 
-    public int markUp(NonInstrument nonInstrument){
-        return this.priceBought - this.priceSold;
+    public int markUp(){
+        return this.priceSold - this.priceBought;
     }
 }
