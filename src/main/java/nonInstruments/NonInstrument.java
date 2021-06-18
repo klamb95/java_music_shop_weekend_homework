@@ -1,4 +1,4 @@
-package instruments;
+package nonInstruments;
 
 public class NonInstrument implements ISellNonInstruments {
 
