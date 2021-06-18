@@ -15,4 +15,9 @@ public class Trumpet extends Instrument implements IPlay{
     public String play() {
         return "I am tooting";
     }
+
+    @Override
+    public int markUp(Instrument instrument) {
+        return this.priceSold - this.priceBought;
+    }
 }

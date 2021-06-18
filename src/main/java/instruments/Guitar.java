@@ -23,4 +23,9 @@ public class Guitar extends Instrument implements IPlay{
     public String play() {
         return "Im strumming";
     }
+
+    @Override
+    public int markUp(Instrument instrument) {
+        return this.priceSold - this.priceBought;
+    }
 }

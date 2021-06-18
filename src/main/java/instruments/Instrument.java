@@ -1,12 +1,12 @@
 package instruments;
 
-public abstract class Instrument {
+public abstract class Instrument implements ISellInstruments {
 
     private String colour;
     private String material;
     private InstrumentType type;
-    private int priceBought;
-    private int priceSold;
+    protected int priceBought;
+    protected int priceSold;
 
     public Instrument(String colour, String material, InstrumentType type, int priceBought, int priceSold) {
         this.colour = colour;
