@@ -17,7 +17,7 @@ public class Trumpet extends Instrument implements IPlay{
     }
 
     @Override
-    public int markUp(Instrument instrument) {
+    public int markUp() {
         return this.priceSold - this.priceBought;
     }
 }

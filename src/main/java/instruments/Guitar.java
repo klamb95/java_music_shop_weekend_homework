@@ -21,11 +21,11 @@ public class Guitar extends Instrument implements IPlay{
 
     @Override
     public String play() {
-        return "Im strumming";
+        return "I am strumming";
     }
 
     @Override
-    public int markUp(Instrument instrument) {
+    public int markUp() {
         return this.priceSold - this.priceBought;
     }
 }

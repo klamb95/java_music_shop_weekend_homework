@@ -27,4 +27,12 @@ public abstract class Instrument implements ISellInstruments {
     public InstrumentType getType() {
         return type;
     }
+
+    public int getPriceBought() {
+        return priceBought;
+    }
+
+    public int getPriceSold() {
+        return priceSold;
+    }
 }
